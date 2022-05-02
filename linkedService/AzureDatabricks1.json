@@ -13,11 +13,7 @@
 				},
 				"secretName": "Databricks-token"
 			},
-			"newClusterNodeType": "Standard_DS4_v2",
-			"newClusterNumOfWorker": "2:8",
-			"newClusterVersion": "10.3.x-scala2.12",
-			"newClusterInitScripts": [],
-			"clusterOption": "Autoscaling"
+			"existingClusterId": "0314-183305-w2thr9aj"
 		}
 	}
 }
