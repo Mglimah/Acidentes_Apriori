@@ -1,0 +1,9 @@
+{
+	"name": "df-tcc012022",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d32578b3-f939-4351-9062-62fe2c3ce8bb",
+		"tenantId": "f41187ea-9d6b-43e7-8b3b-e56af6487b0a"
+	}
+}
