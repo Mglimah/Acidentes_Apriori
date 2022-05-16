@@ -1,0 +1,31 @@
+{
+	"name": "ML-APRIORI",
+	"properties": {
+		"activities": [
+			{
+				"name": "ML APRIORI",
+				"type": "DatabricksNotebook",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "7.00:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/DEV_AMBIENTE/Refined_Zone/Refined_DataSet"
+				},
+				"linkedServiceName": {
+					"referenceName": "AzureDatabricks1",
+					"type": "LinkedServiceReference"
+				}
+			}
+		],
+		"folder": {
+			"name": "DEV-AMBIENTE/PIPE-ML-APRIORI"
+		},
+		"annotations": []
+	}
+}
