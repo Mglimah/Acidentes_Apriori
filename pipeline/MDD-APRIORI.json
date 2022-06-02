@@ -3,7 +3,7 @@
 	"properties": {
 		"activities": [
 			{
-				"name": "ML APRIORI",
+				"name": "MDD APRIORI",
 				"type": "DatabricksNotebook",
 				"dependsOn": [],
 				"policy": {
